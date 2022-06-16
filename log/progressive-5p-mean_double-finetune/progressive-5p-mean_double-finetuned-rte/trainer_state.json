@@ -1,0 +1,43 @@
+{
+  "best_metric": 0.5487364620938628,
+  "best_model_checkpoint": "log/progressive-5p-mean_double-finetune/progressive-5p-mean_double-finetuned-rte/checkpoint-312",
+  "epoch": 3.0,
+  "global_step": 468,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.4693140794223827,
+      "eval_loss": 0.7252578735351562,
+      "eval_runtime": 0.283,
+      "eval_samples_per_second": 978.954,
+      "eval_steps_per_second": 63.614,
+      "step": 156
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.5487364620938628,
+      "eval_loss": 0.7111215591430664,
+      "eval_runtime": 0.2838,
+      "eval_samples_per_second": 976.192,
+      "eval_steps_per_second": 63.435,
+      "step": 312
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.5306859205776173,
+      "eval_loss": 0.7692264318466187,
+      "eval_runtime": 0.2819,
+      "eval_samples_per_second": 982.446,
+      "eval_steps_per_second": 63.841,
+      "step": 468
+    }
+  ],
+  "max_steps": 468,
+  "num_train_epochs": 3,
+  "total_flos": 628225950217320.0,
+  "trial_name": null,
+  "trial_params": null
+}
