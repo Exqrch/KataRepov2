@@ -1,0 +1,43 @@
+{
+  "best_metric": 0.555956678700361,
+  "best_model_checkpoint": "log/1p_mix_easy-first_double-finetune/1p_mix_easy-first_double-finetuned-rte/checkpoint-468",
+  "epoch": 3.0,
+  "global_step": 468,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.47653429602888087,
+      "eval_loss": 0.7263916730880737,
+      "eval_runtime": 0.2802,
+      "eval_samples_per_second": 988.541,
+      "eval_steps_per_second": 64.237,
+      "step": 156
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.5342960288808665,
+      "eval_loss": 0.6970165371894836,
+      "eval_runtime": 0.2799,
+      "eval_samples_per_second": 989.582,
+      "eval_steps_per_second": 64.305,
+      "step": 312
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.555956678700361,
+      "eval_loss": 0.7190845012664795,
+      "eval_runtime": 0.2811,
+      "eval_samples_per_second": 985.267,
+      "eval_steps_per_second": 64.025,
+      "step": 468
+    }
+  ],
+  "max_steps": 468,
+  "num_train_epochs": 3,
+  "total_flos": 628225950217320.0,
+  "trial_name": null,
+  "trial_params": null
+}
