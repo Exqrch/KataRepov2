@@ -1,0 +1,52 @@
+{
+  "best_metric": 0.7156862745098039,
+  "best_model_checkpoint": "log/5p_mix_easy-first_mean_single-finetune/5p_mix_easy-first_single-mean-finetuned-mrpc/checkpoint-460",
+  "epoch": 3.0,
+  "global_step": 690,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.7009803921568627,
+      "eval_f1": 0.8081761006289309,
+      "eval_loss": 0.5880514979362488,
+      "eval_runtime": 0.2754,
+      "eval_samples_per_second": 1481.687,
+      "eval_steps_per_second": 94.421,
+      "step": 230
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.7156862745098039,
+      "eval_f1": 0.8226299694189604,
+      "eval_loss": 0.6086694598197937,
+      "eval_runtime": 0.2754,
+      "eval_samples_per_second": 1481.215,
+      "eval_steps_per_second": 94.391,
+      "step": 460
+    },
+    {
+      "epoch": 2.17,
+      "learning_rate": 5.507246376811595e-06,
+      "loss": 0.5857,
+      "step": 500
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.7132352941176471,
+      "eval_f1": 0.8097560975609757,
+      "eval_loss": 0.6108068823814392,
+      "eval_runtime": 0.2716,
+      "eval_samples_per_second": 1501.989,
+      "eval_steps_per_second": 95.715,
+      "step": 690
+    }
+  ],
+  "max_steps": 690,
+  "num_train_epochs": 3,
+  "total_flos": 429598686749280.0,
+  "trial_name": null,
+  "trial_params": null
+}
