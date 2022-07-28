@@ -1,0 +1,52 @@
+{
+  "best_metric": 0.7328431372549019,
+  "best_model_checkpoint": "log/electra-5p/electra-5p-finetuned-mrpc/checkpoint-690",
+  "epoch": 3.0,
+  "global_step": 690,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.6936274509803921,
+      "eval_f1": 0.8169838945827232,
+      "eval_loss": 0.5942463874816895,
+      "eval_runtime": 0.2798,
+      "eval_samples_per_second": 1458.182,
+      "eval_steps_per_second": 92.923,
+      "step": 230
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.7230392156862745,
+      "eval_f1": 0.8295625942684767,
+      "eval_loss": 0.5987764000892639,
+      "eval_runtime": 0.2815,
+      "eval_samples_per_second": 1449.54,
+      "eval_steps_per_second": 92.373,
+      "step": 460
+    },
+    {
+      "epoch": 2.17,
+      "learning_rate": 5.507246376811595e-06,
+      "loss": 0.5794,
+      "step": 500
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.7328431372549019,
+      "eval_f1": 0.8320493066255777,
+      "eval_loss": 0.6291598677635193,
+      "eval_runtime": 0.278,
+      "eval_samples_per_second": 1467.64,
+      "eval_steps_per_second": 93.526,
+      "step": 690
+    }
+  ],
+  "max_steps": 690,
+  "num_train_epochs": 3,
+  "total_flos": 429598686749280.0,
+  "trial_name": null,
+  "trial_params": null
+}

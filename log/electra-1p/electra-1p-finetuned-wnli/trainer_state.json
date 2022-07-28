@@ -1,0 +1,43 @@
+{
+  "best_metric": 0.5633802816901409,
+  "best_model_checkpoint": "log/electra-1p/electra-1p-finetuned-wnli/checkpoint-40",
+  "epoch": 3.0,
+  "global_step": 120,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.5633802816901409,
+      "eval_loss": 0.6859239935874939,
+      "eval_runtime": 0.0714,
+      "eval_samples_per_second": 993.775,
+      "eval_steps_per_second": 69.984,
+      "step": 40
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.43661971830985913,
+      "eval_loss": 0.697070837020874,
+      "eval_runtime": 0.0603,
+      "eval_samples_per_second": 1176.569,
+      "eval_steps_per_second": 82.857,
+      "step": 80
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.5352112676056338,
+      "eval_loss": 0.692442774772644,
+      "eval_runtime": 0.059,
+      "eval_samples_per_second": 1202.413,
+      "eval_steps_per_second": 84.677,
+      "step": 120
+    }
+  ],
+  "max_steps": 120,
+  "num_train_epochs": 3,
+  "total_flos": 72317512454280.0,
+  "trial_name": null,
+  "trial_params": null
+}
